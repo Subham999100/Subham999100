@@ -92,20 +92,6 @@ A multi-agent research system built with **LangGraph** for breaking complex ques
 
 ---
 
-### 📄 AI Sales Brochure Generator
-
-An AI-powered application that analyzes company websites and generates personalized sales brochures.
-
-**Tech:** Python • FastAPI • LangChain • OpenAI API
-
-- 🌐 Web content extraction
-- 🧠 LLM-based information processing
-- ✍️ Prompt-driven content generation
-- 📄 Automated PDF generation
-- ⚡ FastAPI backend services
-
----
-
 ## 🌱 Currently Learning
 
 - 🤖 Advanced **Agentic AI architectures**
