@@ -1,36 +1,41 @@
 <!-- ═══════════════════════════════ BANNER ═══════════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,50:1E1B4B,100:4C1D95&height=260&section=header&text=Subham%20Sekhar%20Patnaik&fontSize=48&fontColor=E9D5FF&fontAlignY=42&desc=GenAI%20Engineer%20%C2%B7%20Building%20AI%20Agents%20that%20actually%20ship&descSize=17&descAlignY=62&descAlign=50&stroke=A78BFA&strokeWidth=1&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1E1B4B,100:6D28D9&height=240&section=header&text=Subham%20Sekhar%20Patnaik&fontSize=46&fontColor=F5F3FF&fontAlignY=38&desc=GenAI%20Engineer%20%E2%80%A2%20AI%20Agents%20%E2%80%A2%20LangGraph%20%E2%80%A2%20RAG&descSize=18&descColor=C4B5FD&descAlignY=58&animation=fadeIn" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=900&color=C4B5FD&center=true&vCenter=true&width=700&lines=%3E+orchestrating+multi-agent+systems+with+LangGraph;%3E+building+production-grade+RAG+pipelines;%3E+wiring+LLMs+into+reliable+FastAPI+backends;%3E+learning+every+day.+shipping+real+systems." alt="typing" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=900&color=C4B5FD&center=true&vCenter=true&width=700&lines=%3E+orchestrating+multi-agent+systems+with+LangGraph;%3E+building+production-grade+RAG+pipelines;%3E+wiring+LLMs+into+reliable+FastAPI+backends;%3E+learning+every+day.+shipping+real+systems." />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=900&color=6D28D9&center=true&vCenter=true&width=700&lines=%3E+orchestrating+multi-agent+systems+with+LangGraph;%3E+building+production-grade+RAG+pipelines;%3E+wiring+LLMs+into+reliable+FastAPI+backends;%3E+learning+every+day.+shipping+real+systems." alt="typing" />
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Subham999100?tab=repositories"><img src="https://img.shields.io/badge/Explore-Repositories-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Open%20to-Collaborate-16A34A?style=for-the-badge&logo=handshake&logoColor=white" />
-  <img src="https://komarev.com/ghpvc/?username=Subham999100&label=VIEWS&color=6D28D9&style=for-the-badge" />
+  <a href="https://github.com/Subham999100?tab=repositories"><img src="https://img.shields.io/badge/📂_Explore_Repos-6D28D9?style=for-the-badge" /></a>
+  &nbsp;
+  <a href="https://github.com/Subham999100?tab=followers"><img src="https://img.shields.io/github/followers/Subham999100?label=Follow&style=for-the-badge&color=1E1B4B&logo=github" /></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Subham999100&label=Visitors&color=4C1D95&style=for-the-badge" />
 </p>
 
 <br/>
 
 <!-- ═══════════════════════════════ INTRO ═══════════════════════════════ -->
-<h3 align="center">⚡ I build LLM-powered systems, from retrieval pipelines to autonomous multi-agent workflows.</h3>
+<h3 align="center">⚡ I build LLM-powered systems — from retrieval pipelines to autonomous multi-agent workflows.</h3>
 
 <p align="center">
   Computer Science graduate turning GenAI concepts into <b>reliable backend services</b>.<br/>
-  My focus: <b>Agentic AI</b>, <b>LangGraph</b>, <b>RAG</b>, <b>tool calling</b>, and <b>production deployment</b>.
+  Focused on <b>Agentic AI</b>, <b>LangGraph</b>, <b>RAG</b>, <b>tool calling</b>, and <b>production deployment</b>.
 </p>
 
 <br/>
 
 <table align="center">
 <tr>
-<td align="center" width="25%">🤖<br/><b>AI Agents</b><br/><sub>Agentic workflows & orchestration</sub></td>
-<td align="center" width="25%">📚<br/><b>RAG Systems</b><br/><sub>Chunking, embeddings, retrieval</sub></td>
-<td align="center" width="25%">🔧<br/><b>Tool Calling</b><br/><sub>Agents that act, not just talk</sub></td>
-<td align="center" width="25%">🐳<br/><b>Production</b><br/><sub>FastAPI, Docker, AWS</sub></td>
+<td align="center" width="25%"><h2>🤖</h2><b>AI Agents</b><br/><sub>Agentic workflows & orchestration</sub></td>
+<td align="center" width="25%"><h2>📚</h2><b>RAG Systems</b><br/><sub>Chunking · embeddings · retrieval</sub></td>
+<td align="center" width="25%"><h2>🔧</h2><b>Tool Calling</b><br/><sub>Agents that act, not just talk</sub></td>
+<td align="center" width="25%"><h2>🐳</h2><b>Production</b><br/><sub>FastAPI · Docker · AWS</sub></td>
 </tr>
 </table>
 
@@ -38,6 +43,10 @@
 
 <!-- ═══════════════════════════════ HOW I BUILD ═══════════════════════════════ -->
 ## 🧬 How I Build Agents
+
+<details open>
+<summary><b>🔽 Click to collapse the architecture</b></summary>
+<br/>
 
 ```mermaid
 flowchart LR
@@ -52,7 +61,7 @@ flowchart LR
     V -->|verified| S[📝 Synthesizer]
     S --> O([📦 Structured Output])
 
-    classDef io fill:#4C1D95,stroke:#A78BFA,color:#fff
+    classDef io fill:#6D28D9,stroke:#C4B5FD,color:#fff
     classDef agent fill:#1E1B4B,stroke:#818CF8,color:#E0E7FF
     classDef check fill:#064E3B,stroke:#34D399,color:#D1FAE5
     class Q,O io
@@ -60,67 +69,69 @@ flowchart LR
     class V check
 ```
 
+<p align="center"><sub>Planner decomposes the task → specialist agents gather & act → verifier loops until confident → synthesizer returns structured output</sub></p>
+
+</details>
+
 <br/>
 
 <!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
 ## 🚀 Featured Work
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>🧠 Production RAG Knowledge Worker</h3>
-
-<img src="https://img.shields.io/badge/type-RAG%20System-4C1D95?style=flat-square" />
-<img src="https://img.shields.io/badge/stack-FastAPI%20%2B%20pgvector-1E1B4B?style=flat-square" />
-
-<p>Ask questions across organizational documents and get grounded, context-aware answers powered by <b>Retrieval-Augmented Generation</b>.</p>
-
-<b>Pipeline</b><br/>
-<code>ingest</code> → <code>chunk</code> → <code>embed</code> → <code>retrieve</code> → <code>generate</code> → <code>evaluate</code>
-
-<br/><br/>
-
-<b>Highlights</b><br/>
-✦ Intelligent document chunking<br/>
-✦ Vector search with PostgreSQL + pgvector<br/>
-✦ LLM response generation with context<br/>
-✦ Evaluation & robust error handling<br/>
-✦ Fully Dockerized deployment
-
+<details>
+<summary><b>🧠 Production RAG Knowledge Worker</b> &nbsp;·&nbsp; <code>FastAPI</code> <code>LangChain</code> <code>pgvector</code> <code>Docker</code> &nbsp;— <i>click to expand</i></summary>
 <br/>
+
+> Ask questions across organizational documents and get grounded, context-aware answers powered by **Retrieval-Augmented Generation**.
+
+**Pipeline**
+
+```
+📄 ingest  →  ✂️ chunk  →  🧠 embed  →  🔎 retrieve  →  🤖 generate  →  📊 evaluate
+```
+
+**What's inside**
+
+| Layer | Implementation |
+|:--|:--|
+| 📄 Ingestion | Document loading & preprocessing |
+| ✂️ Chunking | Intelligent, context-preserving splits |
+| 🧠 Embeddings | OpenAI embeddings stored in PostgreSQL + pgvector |
+| 🔎 Retrieval | Semantic vector search for relevant context |
+| 🤖 Generation | LLM answers grounded in retrieved context |
+| 📊 Quality | Evaluation layer & robust error handling |
+| 🐳 Deployment | Fully Dockerized, production-ready |
 
 <sub><b>Python · FastAPI · LangChain · OpenAI · PostgreSQL · pgvector · Docker</b></sub>
 
-</td>
-<td width="50%" valign="top">
+</details>
 
-<h3>🤖 Deep Research Multi-Agent System</h3>
-
-<img src="https://img.shields.io/badge/type-Multi--Agent-4C1D95?style=flat-square" />
-<img src="https://img.shields.io/badge/stack-LangGraph-1E1B4B?style=flat-square" />
-
-<p>Breaks complex questions into research tasks and coordinates <b>specialized agents</b> to produce verified, structured reports.</p>
-
-<b>Pipeline</b><br/>
-<code>decompose</code> → <code>research</code> → <code>extract</code> → <code>verify</code> → <code>synthesize</code>
-
-<br/><br/>
-
-<b>Highlights</b><br/>
-✦ Query decomposition & task planning<br/>
-✦ Multi-agent orchestration with LangGraph<br/>
-✦ Web research with source verification<br/>
-✦ Tool calling & structured outputs<br/>
-✦ Automated report synthesis
-
+<details>
+<summary><b>🤖 Deep Research Multi-Agent System</b> &nbsp;·&nbsp; <code>LangGraph</code> <code>OpenAI API</code> <code>FastAPI</code> <code>Docker</code> &nbsp;— <i>click to expand</i></summary>
 <br/>
+
+> Breaks complex questions into research tasks and coordinates **specialized agents** to produce verified, structured reports.
+
+**Pipeline**
+
+```
+🧩 decompose  →  🌐 research  →  🔍 extract  →  ✅ verify  →  📝 synthesize
+```
+
+**What's inside**
+
+| Layer | Implementation |
+|:--|:--|
+| 🧩 Planning | Query decomposition into research tasks |
+| 🤖 Orchestration | Multi-agent coordination with LangGraph |
+| 🌐 Research | Web research & information extraction |
+| ✅ Verification | Source checking before synthesis |
+| 🔧 Tools | Tool calling with structured outputs |
+| 📝 Output | Automated report generation |
 
 <sub><b>Python · LangGraph · OpenAI API · FastAPI · Docker</b></sub>
 
-</td>
-</tr>
-</table>
+</details>
 
 <br/>
 
@@ -162,11 +173,27 @@ flowchart LR
 <!-- ═══════════════════════════════ LEARNING ═══════════════════════════════ -->
 ## 🌱 Currently Exploring
 
+<details>
+<summary><b>📖 See what I'm learning right now</b></summary>
+<br/>
+
 ```yaml
-agents:       [Advanced Agentic AI architectures, Advanced LangGraph, Multi-agent systems]
-retrieval:    [RAG architecture & optimization, LLM evaluation, Observability]
-production:   [Production-grade GenAI systems, AI + Cloud deployment]
+agents:
+  - Advanced Agentic AI architectures
+  - Advanced LangGraph (state, checkpoints, human-in-the-loop)
+  - Multi-agent systems & tool design
+
+retrieval:
+  - RAG architecture & optimization
+  - LLM evaluation
+  - Observability & tracing
+
+production:
+  - Production-grade GenAI systems
+  - AI + Cloud deployment (AWS)
 ```
+
+</details>
 
 <br/>
 
@@ -190,7 +217,9 @@ production:   [Production-grade GenAI systems, AI + Cloud deployment]
 ## 🔥 Consistency
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Subham999100&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=C4B5FD&currStreakLabel=C4B5FD&sideLabels=A5B4FC&dates=8B949E&currStreakNum=E9D5FF&sideNums=E9D5FF" />
+  <a href="https://github.com/Subham999100">
+    <img src="https://streak-stats.demolab.com/?user=Subham999100&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=C4B5FD&currStreakLabel=C4B5FD&sideLabels=A5B4FC&dates=8B949E&currStreakNum=E9D5FF&sideNums=E9D5FF" />
+  </a>
 </p>
 
 <br/>
@@ -201,5 +230,5 @@ production:   [Production-grade GenAI systems, AI + Cloud deployment]
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4C1D95,50:1E1B4B,100:0D1117&height=4&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,55:1E1B4B,100:0D1117&height=110&section=footer" width="100%" />
 </p>
