@@ -1,17 +1,17 @@
 <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,40:1E1B4B,100:7C3AED&height=250&section=header&text=Subham%20Sekhar%20Patnaik&fontSize=48&fontColor=F5F3FF&fontAlignY=36&desc=I%20build%20AI%20agents%20that%20think%2C%20retrieve%2C%20act%20and%20ship.&descSize=19&descColor=DDD6FE&descAlignY=56&animation=twinkling" width="100%" />
+  <img src="./assets/hero.svg" width="100%" alt="Subham Sekhar Patnaik — GenAI Engineer" />
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2400&pause=800&color=C4B5FD&center=true&vCenter=true&width=720&lines=GenAI+Engineer+%7C+Agentic+AI+%7C+LangGraph;orchestrating+multi-agent+systems+%F0%9F%A4%96;building+production-grade+RAG+pipelines+%F0%9F%93%9A;wiring+LLMs+into+reliable+FastAPI+backends+%E2%9A%A1;learning+every+day.+shipping+real+systems.+%F0%9F%9A%80" />
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2400&pause=800&color=6D28D9&center=true&vCenter=true&width=720&lines=GenAI+Engineer+%7C+Agentic+AI+%7C+LangGraph;orchestrating+multi-agent+systems+%F0%9F%A4%96;building+production-grade+RAG+pipelines+%F0%9F%93%9A;wiring+LLMs+into+reliable+FastAPI+backends+%E2%9A%A1;learning+every+day.+shipping+real+systems.+%F0%9F%9A%80" alt="typing" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2400&pause=800&color=C4B5FD&center=true&vCenter=true&width=720&lines=orchestrating+multi-agent+systems+with+LangGraph;building+production-grade+RAG+pipelines;wiring+LLMs+into+reliable+FastAPI+backends;learning+every+day.+shipping+real+systems." />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2400&pause=800&color=6D28D9&center=true&vCenter=true&width=720&lines=orchestrating+multi-agent+systems+with+LangGraph;building+production-grade+RAG+pipelines;wiring+LLMs+into+reliable+FastAPI+backends;learning+every+day.+shipping+real+systems." alt="typing" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Subham999100?tab=repositories"><img src="https://img.shields.io/badge/📂_Explore_My_Work-7C3AED?style=for-the-badge" /></a>
+  <a href="https://github.com/Subham999100?tab=repositories"><img src="https://img.shields.io/badge/Explore_My_Work-7C3AED?style=for-the-badge&logo=github&logoColor=white" /></a>
   &nbsp;
   <a href="https://github.com/Subham999100?tab=followers"><img src="https://img.shields.io/github/followers/Subham999100?label=Follow&style=for-the-badge&color=1E1B4B&logo=github" /></a>
   &nbsp;
@@ -20,31 +20,23 @@
 
 <br/>
 
-<!-- ═══════════════════════════════ TERMINAL INTRO ═══════════════════════════════ -->
-<div align="center">
-
+<!-- ═══════════════════════════════ WHOAMI ═══════════════════════════════ -->
 ```bash
-┌──(subham㉿genai)-[~/profile]
-└─$ whoami
+$ whoami
 
-  name      : Subham Sekhar Patnaik
-  role      : GenAI Engineer
-  focus     : [ AI Agents, Agentic AI, RAG, LangGraph ]
-  builds    : LLM-powered backends that actually run in production
-  status    : learning every day · shipping real-world systems
-
-┌──(subham㉿genai)-[~/profile]
-└─$ █
+  name    : Subham Sekhar Patnaik
+  role    : GenAI Engineer
+  focus   : [ AI Agents, Agentic AI, RAG, LangGraph ]
+  builds  : LLM-powered backends that actually run in production
+  status  : learning every day · shipping real-world systems
 ```
 
-</div>
-
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<td align="center" width="25%"><h2>🤖</h2><b>AI Agents</b><br/><sub>Agentic workflows & orchestration</sub></td>
-<td align="center" width="25%"><h2>📚</h2><b>RAG Systems</b><br/><sub>Chunking · embeddings · retrieval</sub></td>
-<td align="center" width="25%"><h2>🔧</h2><b>Tool Calling</b><br/><sub>Agents that act, not just talk</sub></td>
-<td align="center" width="25%"><h2>🐳</h2><b>Production</b><br/><sub>FastAPI · Docker · AWS</sub></td>
+<td align="center" width="25%">🤖<br/><b>AI Agents</b><br/><sub>Agentic workflows & orchestration</sub></td>
+<td align="center" width="25%">📚<br/><b>RAG Systems</b><br/><sub>Chunking · embeddings · retrieval</sub></td>
+<td align="center" width="25%">🔧<br/><b>Tool Calling</b><br/><sub>Agents that act, not just talk</sub></td>
+<td align="center" width="25%">🐳<br/><b>Production</b><br/><sub>FastAPI · Docker · AWS</sub></td>
 </tr>
 </table>
 
@@ -192,15 +184,6 @@ production:
 
 <br/>
 
-<!-- ═══════════════════════════════ TROPHIES ═══════════════════════════════ -->
-<h2 align="center">🏆 Trophy Shelf</h2>
-
-<p align="center">
-  <a href="https://github.com/Subham999100">
-    <img src="https://github-profile-trophy.vercel.app/?username=Subham999100&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=7" />
-  </a>
-</p>
-
 <!-- ═══════════════════════════════ STREAK ═══════════════════════════════ -->
 <h2 align="center">🔥 Consistency</h2>
 
@@ -208,17 +191,6 @@ production:
   <a href="https://github.com/Subham999100">
     <img src="https://streak-stats.demolab.com/?user=Subham999100&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=C4B5FD&currStreakLabel=C4B5FD&sideLabels=A5B4FC&dates=8B949E&currStreakNum=E9D5FF&sideNums=E9D5FF" />
   </a>
-</p>
-
-<!-- ═══════════════════════════════ SNAKE ═══════════════════════════════ -->
-<h2 align="center">🐍 Contribution Snake</h2>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Subham999100/Subham999100/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Subham999100/Subham999100/output/github-contribution-grid-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/Subham999100/Subham999100/output/github-contribution-grid-snake.svg" />
-  </picture>
 </p>
 
 <br/>
@@ -237,7 +209,8 @@ production:
 
 <p align="center"><sub>💬 Ask me about GenAI · RAG · AI Agents · LangGraph · LangChain · OpenAI API · FastAPI · Vector DBs · Python</sub></p>
 
-<!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+<br/>
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,55:1E1B4B,100:0D1117&height=130&section=footer&text=Building%20with%20AI.%20Learning%20every%20day.%20Shipping%20real%20systems.&fontSize=16&fontColor=DDD6FE&fontAlignY=72" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,55:1E1B4B,100:0D1117&height=120&section=footer&text=Building%20with%20AI.%20Learning%20every%20day.%20Shipping%20real%20systems.&fontSize=16&fontColor=DDD6FE&fontAlignY=70" width="100%" />
 </p>
