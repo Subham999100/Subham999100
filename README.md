@@ -1,17 +1,17 @@
-<!-- ═══════════════════════════════ BANNER ═══════════════════════════════ -->
+<!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1E1B4B,100:6D28D9&height=240&section=header&text=Subham%20Sekhar%20Patnaik&fontSize=46&fontColor=F5F3FF&fontAlignY=38&desc=GenAI%20Engineer%20%E2%80%A2%20AI%20Agents%20%E2%80%A2%20LangGraph%20%E2%80%A2%20RAG&descSize=18&descColor=C4B5FD&descAlignY=58&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,40:1E1B4B,100:7C3AED&height=250&section=header&text=Subham%20Sekhar%20Patnaik&fontSize=48&fontColor=F5F3FF&fontAlignY=36&desc=I%20build%20AI%20agents%20that%20think%2C%20retrieve%2C%20act%20and%20ship.&descSize=19&descColor=DDD6FE&descAlignY=56&animation=twinkling" width="100%" />
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=900&color=C4B5FD&center=true&vCenter=true&width=700&lines=%3E+orchestrating+multi-agent+systems+with+LangGraph;%3E+building+production-grade+RAG+pipelines;%3E+wiring+LLMs+into+reliable+FastAPI+backends;%3E+learning+every+day.+shipping+real+systems." />
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=900&color=6D28D9&center=true&vCenter=true&width=700&lines=%3E+orchestrating+multi-agent+systems+with+LangGraph;%3E+building+production-grade+RAG+pipelines;%3E+wiring+LLMs+into+reliable+FastAPI+backends;%3E+learning+every+day.+shipping+real+systems." alt="typing" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2400&pause=800&color=C4B5FD&center=true&vCenter=true&width=720&lines=GenAI+Engineer+%7C+Agentic+AI+%7C+LangGraph;orchestrating+multi-agent+systems+%F0%9F%A4%96;building+production-grade+RAG+pipelines+%F0%9F%93%9A;wiring+LLMs+into+reliable+FastAPI+backends+%E2%9A%A1;learning+every+day.+shipping+real+systems.+%F0%9F%9A%80" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2400&pause=800&color=6D28D9&center=true&vCenter=true&width=720&lines=GenAI+Engineer+%7C+Agentic+AI+%7C+LangGraph;orchestrating+multi-agent+systems+%F0%9F%A4%96;building+production-grade+RAG+pipelines+%F0%9F%93%9A;wiring+LLMs+into+reliable+FastAPI+backends+%E2%9A%A1;learning+every+day.+shipping+real+systems.+%F0%9F%9A%80" alt="typing" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Subham999100?tab=repositories"><img src="https://img.shields.io/badge/📂_Explore_Repos-6D28D9?style=for-the-badge" /></a>
+  <a href="https://github.com/Subham999100?tab=repositories"><img src="https://img.shields.io/badge/📂_Explore_My_Work-7C3AED?style=for-the-badge" /></a>
   &nbsp;
   <a href="https://github.com/Subham999100?tab=followers"><img src="https://img.shields.io/github/followers/Subham999100?label=Follow&style=for-the-badge&color=1E1B4B&logo=github" /></a>
   &nbsp;
@@ -20,15 +20,24 @@
 
 <br/>
 
-<!-- ═══════════════════════════════ INTRO ═══════════════════════════════ -->
-<h3 align="center">⚡ I build LLM-powered systems — from retrieval pipelines to autonomous multi-agent workflows.</h3>
+<!-- ═══════════════════════════════ TERMINAL INTRO ═══════════════════════════════ -->
+<div align="center">
 
-<p align="center">
-  Computer Science graduate turning GenAI concepts into <b>reliable backend services</b>.<br/>
-  Focused on <b>Agentic AI</b>, <b>LangGraph</b>, <b>RAG</b>, <b>tool calling</b>, and <b>production deployment</b>.
-</p>
+```bash
+┌──(subham㉿genai)-[~/profile]
+└─$ whoami
 
-<br/>
+  name      : Subham Sekhar Patnaik
+  role      : GenAI Engineer
+  focus     : [ AI Agents, Agentic AI, RAG, LangGraph ]
+  builds    : LLM-powered backends that actually run in production
+  status    : learning every day · shipping real-world systems
+
+┌──(subham㉿genai)-[~/profile]
+└─$ █
+```
+
+</div>
 
 <table align="center">
 <tr>
@@ -41,12 +50,8 @@
 
 <br/>
 
-<!-- ═══════════════════════════════ HOW I BUILD ═══════════════════════════════ -->
-## 🧬 How I Build Agents
-
-<details open>
-<summary><b>🔽 Click to collapse the architecture</b></summary>
-<br/>
+<!-- ═══════════════════════════════ ARCHITECTURE ═══════════════════════════════ -->
+<h2 align="center">🧬 How I Build Agents</h2>
 
 ```mermaid
 flowchart LR
@@ -61,7 +66,7 @@ flowchart LR
     V -->|verified| S[📝 Synthesizer]
     S --> O([📦 Structured Output])
 
-    classDef io fill:#6D28D9,stroke:#C4B5FD,color:#fff
+    classDef io fill:#7C3AED,stroke:#DDD6FE,color:#fff,stroke-width:2px
     classDef agent fill:#1E1B4B,stroke:#818CF8,color:#E0E7FF
     classDef check fill:#064E3B,stroke:#34D399,color:#D1FAE5
     class Q,O io
@@ -69,14 +74,12 @@ flowchart LR
     class V check
 ```
 
-<p align="center"><sub>Planner decomposes the task → specialist agents gather & act → verifier loops until confident → synthesizer returns structured output</sub></p>
-
-</details>
+<p align="center"><sub>Planner decomposes → specialists gather & act → verifier loops until confident → synthesizer returns structured output</sub></p>
 
 <br/>
 
 <!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
-## 🚀 Featured Work
+<h2 align="center">🚀 Featured Work</h2>
 
 <details>
 <summary><b>🧠 Production RAG Knowledge Worker</b> &nbsp;·&nbsp; <code>FastAPI</code> <code>LangChain</code> <code>pgvector</code> <code>Docker</code> &nbsp;— <i>click to expand</i></summary>
@@ -84,13 +87,9 @@ flowchart LR
 
 > Ask questions across organizational documents and get grounded, context-aware answers powered by **Retrieval-Augmented Generation**.
 
-**Pipeline**
-
 ```
 📄 ingest  →  ✂️ chunk  →  🧠 embed  →  🔎 retrieve  →  🤖 generate  →  📊 evaluate
 ```
-
-**What's inside**
 
 | Layer | Implementation |
 |:--|:--|
@@ -112,13 +111,9 @@ flowchart LR
 
 > Breaks complex questions into research tasks and coordinates **specialized agents** to produce verified, structured reports.
 
-**Pipeline**
-
 ```
 🧩 decompose  →  🌐 research  →  🔍 extract  →  ✅ verify  →  📝 synthesize
 ```
-
-**What's inside**
 
 | Layer | Implementation |
 |:--|:--|
@@ -136,7 +131,7 @@ flowchart LR
 <br/>
 
 <!-- ═══════════════════════════════ STACK ═══════════════════════════════ -->
-## 🛠️ Tech Stack
+<h2 align="center">🛠️ Tech Stack</h2>
 
 <table align="center">
 <tr>
@@ -171,7 +166,7 @@ flowchart LR
 <br/>
 
 <!-- ═══════════════════════════════ LEARNING ═══════════════════════════════ -->
-## 🌱 Currently Exploring
+<h2 align="center">🌱 Currently Exploring</h2>
 
 <details>
 <summary><b>📖 See what I'm learning right now</b></summary>
@@ -197,8 +192,39 @@ production:
 
 <br/>
 
+<!-- ═══════════════════════════════ TROPHIES ═══════════════════════════════ -->
+<h2 align="center">🏆 Trophy Shelf</h2>
+
+<p align="center">
+  <a href="https://github.com/Subham999100">
+    <img src="https://github-profile-trophy.vercel.app/?username=Subham999100&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=7" />
+  </a>
+</p>
+
+<!-- ═══════════════════════════════ STREAK ═══════════════════════════════ -->
+<h2 align="center">🔥 Consistency</h2>
+
+<p align="center">
+  <a href="https://github.com/Subham999100">
+    <img src="https://streak-stats.demolab.com/?user=Subham999100&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=C4B5FD&currStreakLabel=C4B5FD&sideLabels=A5B4FC&dates=8B949E&currStreakNum=E9D5FF&sideNums=E9D5FF" />
+  </a>
+</p>
+
+<!-- ═══════════════════════════════ SNAKE ═══════════════════════════════ -->
+<h2 align="center">🐍 Contribution Snake</h2>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Subham999100/Subham999100/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Subham999100/Subham999100/output/github-contribution-grid-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/Subham999100/Subham999100/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+<br/>
+
 <!-- ═══════════════════════════════ COLLAB ═══════════════════════════════ -->
-## 🤝 Let's Collaborate
+<h2 align="center">🤝 Let's Collaborate</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI_Agents-1E1B4B?style=for-the-badge" />
@@ -211,24 +237,7 @@ production:
 
 <p align="center"><sub>💬 Ask me about GenAI · RAG · AI Agents · LangGraph · LangChain · OpenAI API · FastAPI · Vector DBs · Python</sub></p>
 
-<br/>
-
-<!-- ═══════════════════════════════ STREAK ═══════════════════════════════ -->
-## 🔥 Consistency
-
-<p align="center">
-  <a href="https://github.com/Subham999100">
-    <img src="https://streak-stats.demolab.com/?user=Subham999100&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=C4B5FD&currStreakLabel=C4B5FD&sideLabels=A5B4FC&dates=8B949E&currStreakNum=E9D5FF&sideNums=E9D5FF" />
-  </a>
-</p>
-
-<br/>
-
 <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
 <p align="center">
-  <b>🚀 Building with AI. Learning every day. Shipping real-world systems.</b>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,55:1E1B4B,100:0D1117&height=110&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,55:1E1B4B,100:0D1117&height=130&section=footer&text=Building%20with%20AI.%20Learning%20every%20day.%20Shipping%20real%20systems.&fontSize=16&fontColor=DDD6FE&fontAlignY=72" width="100%" />
 </p>
