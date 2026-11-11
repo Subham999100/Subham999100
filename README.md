@@ -25,7 +25,7 @@
 
 I'm a **Computer Science graduate** focused on building real-world **Generative AI** and **Agentic AI** applications.
 
-I love turning AI concepts into **reliable backend services** — from LLM-powered systems and multi-agent workflows to production-grade RAG pipelines.
+I love turning AI concepts into **reliable backend services**, from LLM-powered systems and multi-agent workflows to production-grade RAG pipelines.
 
 ```python
 class Subham:
@@ -145,16 +145,21 @@ A multi-agent research system built with **LangGraph** that breaks complex quest
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Subham999100&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Subham999100&theme=tokyonight&hide_border=true&layout=compact" />
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Subham999100&theme=tokyonight&hide_border=true" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" />
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Subham999100&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" />
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Subham999100&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
