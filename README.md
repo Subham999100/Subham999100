@@ -1,802 +1,298 @@
+<!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Subham Sekhar Patnaik — GenAI Engineer building agentic systems" />
+</p>
 
-<!--
-╔══════════════════════════════════════════════╗
-║           S U B H A M . A I                  ║
-║          THE AGENTIC ENGINEERING LAB          ║
-║           GitHub Profile · V2.0               ║
-╚══════════════════════════════════════════════╝
--->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=900&color=C4B5FD&center=true&vCenter=true&width=760&lines=I+don't+build+chatbots.+I+build+systems+that+think.;planner+%E2%86%92+specialists+%E2%86%92+verifier+%E2%86%92+ship;RAG+that+grounds+every+answer+in+real+context;agents+that+act%2C+not+just+talk;from+notebook+to+production.+every+time." />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=900&color=6D28D9&center=true&vCenter=true&width=760&lines=I+don't+build+chatbots.+I+build+systems+that+think.;planner+%E2%86%92+specialists+%E2%86%92+verifier+%E2%86%92+ship;RAG+that+grounds+every+answer+in+real+context;agents+that+act%2C+not+just+talk;from+notebook+to+production.+every+time." alt="typing" />
+  </picture>
+</p>
 
-<div align="center">
-
-<img src="./assets/hero.svg" width="100%" alt="Subham Sekhar Patnaik — GenAI Engineer" />
+<p align="center">
+  <a href="https://github.com/Subham999100?tab=repositories"><img src="https://img.shields.io/badge/Explore_My_Work-7C3AED?style=for-the-badge&logo=github&logoColor=white" /></a>
+  &nbsp;
+  <a href="https://github.com/Subham999100?tab=followers"><img src="https://img.shields.io/github/followers/Subham999100?label=Follow&style=for-the-badge&color=1E1B4B&logo=github" /></a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Subham999100&label=Profile+Views&color=4C1D95&style=for-the-badge" />
+</p>
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;duration=2200&amp;pause=900&amp;color=C4B5FD&amp;center=true&amp;vCenter=true&amp;width=850&amp;lines=Initializing+SUBHAM.AI+...;I+build+AI+agents+that+think+and+act.;RAG+%7C+LangGraph+%7C+Multi-Agent+Systems;Turning+LLM+experiments+into+real+systems.;Welcome+to+my+AI+engineering+lab." />
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;duration=2200&amp;pause=900&amp;color=6D28D9&amp;center=true&amp;vCenter=true&amp;width=850&amp;lines=Initializing+SUBHAM.AI+...;I+build+AI+agents+that+think+and+act.;RAG+%7C+LangGraph+%7C+Multi-Agent+Systems;Turning+LLM+experiments+into+real+systems.;Welcome+to+my+AI+engineering+lab." alt="Animated introduction" />
-</picture>
+<!-- ═══════════════════════════════ SOURCE CODE OF ME ═══════════════════════════════ -->
+<h2 align="center">⚙️ My Source Code</h2>
+<p align="center"><sub>if I were a LangGraph, this is how I'd compile</sub></p>
 
-<br/>
+```python
+from langgraph.graph import StateGraph, START, END
+from subham import think, retrieve, act, verify, ship, Engineer
 
-<img src="https://img.shields.io/badge/IDENTITY-GenAI_Engineer-7C3AED?style=for-the-badge&amp;labelColor=0D1117" />
-<img src="https://img.shields.io/badge/FOCUS-Agentic_AI-A78BFA?style=for-the-badge&amp;labelColor=0D1117" />
-<img src="https://img.shields.io/badge/STATUS-Building_&_Learning-22C55E?style=for-the-badge&amp;labelColor=0D1117" />
+me = StateGraph(Engineer)
 
-<br/><br/>
+me.add_node("think",    think)     # break the problem into solvable pieces
+me.add_node("retrieve", retrieve)  # ground every answer in real context
+me.add_node("act",      act)       # tools, APIs, code — agents that do things
+me.add_node("verify",   verify)    # trust, but check
+me.add_node("ship",     ship)      # FastAPI · Docker · AWS
 
-<a href="https://github.com/Subham999100?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE_MY_WORK-7C3AED?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
-</a>
-<a href="https://github.com/Subham999100?tab=followers">
-  <img src="https://img.shields.io/github/followers/Subham999100?label=FOLLOW&amp;style=for-the-badge&amp;color=312E81&amp;logo=github" />
-</a>
+me.add_edge(START, "think")
+me.add_edge("think", "retrieve")
+me.add_edge("retrieve", "act")
+me.add_edge("act", "verify")
+me.add_conditional_edges("verify", lambda s: "ship" if s.confident else "think")
+me.add_edge("ship", END)
 
-<br/><br/>
-
-**SYSTEM NAVIGATION**
-
-<a href="#mission-control">MISSION CONTROL</a> ·
-<a href="#agent-playground">AGENT LAB</a> ·
-<a href="#architecture">ARCHITECTURE</a> ·
-<a href="#featured-builds">PROJECTS</a> ·
-<a href="#tech-stack">TECH STACK</a> ·
-<a href="#live-signals">LIVE SIGNALS</a>
-
-</div>
-
----
-
-## Mission Control
-
-> **Welcome, visitor.** You've entered the engineering workspace of a developer exploring how to make AI systems reason, retrieve knowledge, execute tools, and produce useful results.
-
-```text
-┌──────────────────────────────────────────────┐
-│  SUBHAM.AI                         v2.0       │
-├──────────────────────────────────────────────┤
-│                                              │
-│  USER       Subham Sekhar Patnaik            │
-│  ROLE       GenAI Engineer                   │
-│  ENGINE     Python / FastAPI                 │
-│  BRAIN      LLMs / LangGraph                 │
-│  MEMORY     RAG / Vector Databases           │
-│  RUNTIME    Docker / AWS                     │
-│                                              │
-│  CURRENT OBJECTIVE                           │
-│  Build reliable, useful agentic AI systems.  │
-│                                              │
-│  $ ./explore --interactive                   │
-│                                              │
-└──────────────────────────────────────────────┘
+subham = me.compile(checkpointer=curiosity)   # state persists. learning never resets.
+subham.invoke({"problem": "yours"})           # → production-grade AI
 ```
 
-<table>
+<table align="center" width="100%">
 <tr>
-<td align="center" width="25%">
-<h3>🧠</h3>
-<b>REASON</b>
-<br/>
-<sub>Planning &amp; decision flows</sub>
-</td>
-<td align="center" width="25%">
-<h3>📚</h3>
-<b>RETRIEVE</b>
-<br/>
-<sub>RAG &amp; vector search</sub>
-</td>
-<td align="center" width="25%">
-<h3>⚡</h3>
-<b>ACT</b>
-<br/>
-<sub>Tools &amp; orchestration</sub>
-</td>
-<td align="center" width="25%">
-<h3>🛡️</h3>
-<b>VERIFY</b>
-<br/>
-<sub>Evidence &amp; evaluation</sub>
-</td>
+<td align="center" width="25%">🤖<br/><b>AI Agents</b><br/><sub>Planners, specialists & verifiers that cooperate</sub></td>
+<td align="center" width="25%">📚<br/><b>RAG Systems</b><br/><sub>Chunk · embed · retrieve · ground · evaluate</sub></td>
+<td align="center" width="25%">🔧<br/><b>Tool Calling</b><br/><sub>Structured outputs that drive real actions</sub></td>
+<td align="center" width="25%">🐳<br/><b>Production</b><br/><sub>FastAPI · Docker · AWS — not just notebooks</sub></td>
 </tr>
 </table>
 
----
-
-## Agent Playground
-
-<div align="center">
-
-### 🧪 Choose Your AI Mission
-
-**This is an interactive walkthrough of the systems I build.**
-
-`SELECT A MISSION` → `INSPECT THE WORKFLOW` → `REVEAL THE RESULT`
-
-</div>
-
-<details>
-<summary><b>🟣 MISSION 01 — Launch the Deep Research Agent</b> · Click to enter</summary>
-
 <br/>
 
-```bash
-visitor@subham-ai:~$ agent run --mode=deep-research
-
-[BOOT]      Loading agent configuration
-[PLANNER]   Preparing research strategy
-[TOOLS]     Registering research tools
-[MEMORY]    Initializing agent state
-[READY]     Research workflow initialized
-```
-
-**Scenario:** A user submits a complex question that requires research, source comparison, and a structured answer.
-
-<details>
-<summary>🧩 STEP 01 — Open the Planner Agent</summary>
-
-**Planner Agent**
-
-The query is decomposed into research tasks.
-
-```yaml
-planner:
-  input: "Complex research question"
-  operations:
-    - identify research objectives
-    - decompose into smaller tasks
-    - select tools and knowledge sources
-    - define verification requirements
-  output: research_plan
-```
-
-The planner decides **what information is needed and where to search**.
-
-</details>
-
-<details>
-<summary>🌐 STEP 02 — Open the Research Agent</summary>
-
-**Research Agent**
-
-Independent research tasks gather relevant information.
-
-```text
-RESEARCH WORKFLOW
-
-Task 01  → Gather relevant sources
-Task 02  → Extract useful information
-Task 03  → Compare retrieved evidence
-Task 04  → Return structured findings
-```
-
-The agent collects evidence instead of generating an unsupported answer.
-
-</details>
-
-<details>
-<summary>✅ STEP 03 — Open the Verification Layer</summary>
-
-**Verifier Agent**
-
-Before producing the response, the workflow checks:
-
-- Whether claims have supporting evidence.
-- Whether the retrieved information answers the query.
-- Whether sources disagree.
-- Whether additional research is required.
-
-```python
-if evidence_is_sufficient:
-    next_node = "synthesizer"
-else:
-    next_node = "planner"
-```
-
-</details>
-
-<details>
-<summary>📦 STEP 04 — Reveal the Final Output</summary>
-
-```json
-{
-  "status": "complete",
-  "output_type": "research_report",
-  "sections": [
-    "executive_summary",
-    "key_findings",
-    "supporting_sources",
-    "limitations",
-    "conclusion"
-  ],
-  "verification": "evidence_reviewed"
-}
-```
-
-**Mission complete.**
-
-A structured answer is produced from the gathered evidence.
-
-</details>
-
-<br/>
-
-**Technology:** `LangGraph` · `OpenAI API` · `Python` · `FastAPI`
-
-</details>
-
-<details>
-<summary><b>🔵 MISSION 02 — Enter the RAG Knowledge Engine</b> · Click to enter</summary>
-
-<br/>
-
-```bash
-visitor@subham-ai:~$ rag query --grounded
-
-[LOAD]      Reading knowledge sources
-[CHUNK]     Preparing document segments
-[EMBED]     Generating vector representations
-[SEARCH]    Retrieving relevant context
-[GENERATE]  Creating grounded response
-```
-
-**Scenario:** An assistant must answer questions using information from an organization's documents.
-
-### Inside the Retrieval Pipeline
-
-```text
-              KNOWLEDGE BASE
-                    |
-             DOCUMENT INGEST
-                    |
-             TEXT PROCESSING
-                    |
-               CHUNKING
-                    |
-               EMBEDDINGS
-                    |
-             VECTOR DATABASE
-                    |
-                RETRIEVAL
-                    |
-             CONTEXT + QUERY
-                    |
-                   LLM
-                    |
-             GROUNDED ANSWER
-```
-
-<details>
-<summary>🔎 Inspect the Retrieval Layer</summary>
-
-The retrieval system uses:
-
-- Context-preserving text chunks.
-- OpenAI embeddings.
-- PostgreSQL with pgvector.
-- Semantic similarity search.
-- Retrieved context supplied to the generation step.
-
-The goal is to make answers traceable to relevant source material.
-
-</details>
-
-<details>
-<summary>🛡️ Inspect the Quality Layer</summary>
-
-A reliable RAG application needs more than embeddings.
-
-Important checks include:
-
-- Retrieval relevance.
-- Context quality.
-- Faithfulness to source material.
-- Missing information handling.
-- Error handling and evaluation.
-
-</details>
-
-**Mission objective:** Answer with relevant context rather than unsupported confidence.
-
-</details>
-
-<details>
-<summary><b>🟢 MISSION 03 — Unlock the Tool Registry</b> · Click to enter</summary>
-
-<br/>
-
-```bash
-visitor@subham-ai:~$ agent tools --list
-
-AVAILABLE TOOL CATEGORIES
-
-[01] Retrieval
-[02] Research
-[03] Information Extraction
-[04] Structured Output
-[05] Verification
-```
-
-### Why tool calling matters
-
-A useful AI agent should do more than generate text.
-
-```text
-USER INTENT
-    |
-    v
-MODEL SELECTS A TOOL
-    |
-    v
-TOOL EXECUTES
-    |
-    v
-RESULT VALIDATION
-    |
-    v
-MODEL CONTINUES WITH EVIDENCE
-```
-
-<details>
-<summary>⚙️ Inspect the Tool Execution Contract</summary>
-
-```python
-from pydantic import BaseModel
-
-class ToolResult(BaseModel):
-    success: bool
-    data: dict
-    error: str | None = None
-```
-
-This is an illustrative typed contract.
-
-Tool outputs should be validated before they influence later agent decisions.
-
-</details>
-
-<details>
-<summary>🔐 Inspect the Safety Rules</summary>
-
-**Reliable agent principles:**
-
-- Validate tool arguments.
-- Apply timeouts and execution limits.
-- Handle external failures.
-- Restrict access to authorized tools.
-- Avoid executing untrusted instructions.
-- Return structured results.
-
-</details>
-
-**Mission complete:** The agent can interact with its environment through controlled tools.
-
-</details>
-
-<p align="center"><sub>Note: The missions above are interactive demonstrations of architecture concepts, not live API executions.</sub></p>
-
----
-
-## Architecture
-
-<div align="center">
-
-### 🧬 The Agent Brain
-
-*How I approach multi-agent workflows*
-
-</div>
+<!-- ═══════════════════════════════ ARCHITECTURE ═══════════════════════════════ -->
+<h2 align="center">🧬 Anatomy of an Agent I Build</h2>
 
 ```mermaid
-flowchart TD
-    U(["USER QUERY"]) --> P{"PLANNER AGENT"}
+flowchart LR
+    Q([🧑 User Query]) --> P{{🧩 Planner}}
 
-    P -->|"Knowledge"| R["RAG RETRIEVER"]
-    P -->|"Research"| W["RESEARCH AGENT"]
-    P -->|"Actions"| T["TOOL EXECUTOR"]
+    subgraph SPECIALISTS [" ⚡ specialists run in parallel "]
+        direction TB
+        R[🌐 Research Agent]
+        K[📚 RAG Retriever]
+        T[🔧 Tool Executor]
+    end
 
-    R --> E["EVIDENCE COLLECTION"]
-    W --> E
-    T --> E
+    P --> R & K & T
+    R & K & T --> V{{✅ Verifier}}
+    V -.->|"↺ not confident — re-plan"| P
+    V ==>|verified| S[📝 Synthesizer]
+    S --> O([📦 Structured Output])
 
-    E --> V{"VERIFIER"}
-
-    V -->|"More evidence"| P
-    V -->|"Sufficient"| S["SYNTHESIZER"]
-
-    S --> O(["STRUCTURED OUTPUT"])
-
-    classDef input fill:#7C3AED,stroke:#C4B5FD,color:#FFFFFF,stroke-width:2px
-    classDef agent fill:#1E1B4B,stroke:#818CF8,color:#FFFFFF,stroke-width:2px
-    classDef verify fill:#064E3B,stroke:#34D399,color:#FFFFFF,stroke-width:2px
-
-    class U,O input
-    class P,R,W,T,E,S agent
-    class V verify
+    classDef io fill:#7C3AED,stroke:#DDD6FE,color:#fff,stroke-width:2px
+    classDef agent fill:#1E1B4B,stroke:#818CF8,color:#E0E7FF
+    classDef check fill:#064E3B,stroke:#34D399,color:#D1FAE5
+    class Q,O io
+    class P,R,K,T,S agent
+    class V check
+    style SPECIALISTS fill:#0D1117,stroke:#4C1D95,stroke-dasharray:5 5,color:#C4B5FD
 ```
 
-<p align="center">
-<sub>PLAN → RETRIEVE / RESEARCH / ACT → VERIFY → SYNTHESIZE</sub>
-</p>
-
 <details>
-<summary>🔍 Expand: What makes this different from a basic chatbot?</summary>
+<summary><b>▶ Watch a single run, step by step</b> &nbsp;<sub>(illustrative trace)</sub></summary>
+<br/>
 
-| Basic chatbot | Agentic workflow |
-|:---|:---|
-| Responds to prompts | Plans tasks and coordinates steps |
-| Primarily generates text | Can invoke external tools |
-| Depends on prompt context | Can retrieve relevant knowledge |
-| Often follows a single response path | Supports conditional paths and loops |
-| May answer without sufficient evidence | Can incorporate explicit verification |
+```diff
+  $ agent.invoke("Compare vector DB options for a 10M-doc RAG system")
 
-The objective isn't to add more agents for complexity. It's to design systems where specialized steps provide measurable value.
++ [planner]     decomposed query → 3 sub-tasks
++ [research]    gathering benchmarks & docs ............. done
++ [rag]         retrieved top-k chunks from knowledge base  done
++ [tools]       structured comparison table generated ...... done
+! [verifier]    claim about latency has no source → re-plan
++ [research]    fetched supporting source ................ done
++ [verifier]    all claims grounded ✓
++ [synthesizer] structured report ready
+
+  ✔ status: verified · output: report.json
+```
 
 </details>
-
----
-
-## Featured Builds
-
-<div align="center">
-
-### 🚀 Engineering Projects
-
-*Real-world GenAI architectures, beyond basic prompt wrappers.*
-
-</div>
-
-<details>
-<summary><b>PROJECT 01 / Production RAG Knowledge Worker</b> · Open technical blueprint</summary>
 
 <br/>
 
-**An organizational knowledge assistant using Retrieval-Augmented Generation.**
+<!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
+<h2 align="center">🚀 Featured Builds</h2>
 
-The system processes document content, indexes embeddings, retrieves relevant information, and produces context-aware responses.
+<details open>
+<summary><b>🧠 Production RAG Knowledge Worker</b> &nbsp;·&nbsp; <code>FastAPI</code> <code>LangChain</code> <code>pgvector</code> <code>Docker</code></summary>
+<br/>
 
-```text
-PROJECT BLUEPRINT 001
-──────────────────────────────────────────
+> **The problem:** organizations drown in documents nobody can search. <br/>
+> **The build:** ask a question in plain language, get an answer **grounded in your own documents** — not hallucinated.
 
-[ DOCUMENTS ]
-      |
-      v
-[ INGESTION + CLEANING ]
-      |
-      v
-[ CHUNKING ]
-      |
-      v
-[ OPENAI EMBEDDINGS ]
-      |
-      v
-[ POSTGRESQL + PGVECTOR ]
-      |
-      v
-[ SEMANTIC RETRIEVAL ]
-      |
-      v
-[ LLM GENERATION ]
-      |
-      v
-[ GROUNDED RESPONSE ]
+```mermaid
+flowchart LR
+    A[📄 Ingest] --> B[✂️ Chunk] --> C[🧠 Embed] --> D[(🐘 pgvector)]
+    U([❓ Question]) --> E[🔎 Retrieve] 
+    D --> E --> F[🤖 Generate] --> G[📊 Evaluate] --> H([💬 Grounded Answer])
 
-──────────────────────────────────────────
+    classDef s fill:#1E1B4B,stroke:#818CF8,color:#E0E7FF
+    classDef io fill:#7C3AED,stroke:#DDD6FE,color:#fff
+    class A,B,C,E,F,G s
+    class U,H io
 ```
 
-### System Components
-
-| Component | Engineering Focus |
+| Layer | What it does |
 |:--|:--|
-| Ingestion | Document loading and preprocessing |
-| Chunking | Context-preserving text segmentation |
-| Embeddings | OpenAI embedding generation |
-| Vector storage | PostgreSQL and pgvector |
-| Retrieval | Semantic similarity search |
-| Generation | Context-grounded LLM answers |
-| Quality | Evaluation and error handling |
-| Packaging | Dockerized backend |
+| 📄 **Ingestion** | Loads and preprocesses organizational documents |
+| ✂️ **Chunking** | Context-preserving splits so meaning survives retrieval |
+| 🧠 **Embeddings** | OpenAI embeddings stored in PostgreSQL + pgvector |
+| 🔎 **Retrieval** | Semantic vector search surfaces the most relevant context |
+| 🤖 **Generation** | LLM answers constrained to retrieved context |
+| 📊 **Quality** | Evaluation layer + robust error handling |
+| 🐳 **Deployment** | Fully Dockerized, production-ready |
 
-### Technology
-
-`Python` `FastAPI` `LangChain` `OpenAI` `PostgreSQL` `pgvector` `Docker`
-
-<details>
-<summary>🧠 Engineering Insight — Why retrieval quality matters</summary>
-
-Even a capable LLM can produce weak answers when the retrieved context is poor.
-
-Good RAG engineering requires attention to document quality, chunk boundaries, embedding choices, retrieval strategy, and evaluation.
-
-**Better context is often more valuable than a longer prompt.**
+<sub><b>Python · FastAPI · LangChain · OpenAI · PostgreSQL · pgvector · Docker</b></sub>
 
 </details>
 
-</details>
+<details open>
+<summary><b>🤖 Deep Research Multi-Agent System</b> &nbsp;·&nbsp; <code>LangGraph</code> <code>OpenAI API</code> <code>FastAPI</code> <code>Docker</code></summary>
+<br/>
 
-<details>
-<summary><b>PROJECT 02 / Deep Research Multi-Agent System</b> · Open technical blueprint</summary>
+> **The problem:** hard questions need more than one search and one answer. <br/>
+> **The build:** a team of **specialized agents** that plans, researches, fact-checks itself, and writes a structured report.
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant U as 🧑 User
+    participant P as 🧩 Planner
+    participant R as 🌐 Researchers
+    participant V as ✅ Verifier
+    participant S as 📝 Synthesizer
+    U->>P: complex question
+    P->>R: decomposed research tasks
+    R->>V: extracted findings + sources
+    alt weak or unsourced claim
+        V-->>P: re-plan that branch
+        P->>R: targeted follow-up
+        R->>V: new evidence
+    end
+    V->>S: verified findings
+    S->>U: structured report
+```
+
+| Layer | What it does |
+|:--|:--|
+| 🧩 **Planning** | Decomposes the question into focused research tasks |
+| 🤖 **Orchestration** | Multi-agent coordination with LangGraph state |
+| 🌐 **Research** | Web research and information extraction |
+| ✅ **Verification** | Checks sources before anything reaches the report |
+| 🔧 **Tools** | Tool calling with structured outputs |
+| 📝 **Output** | Automated, structured report generation |
+
+<sub><b>Python · LangGraph · OpenAI API · FastAPI · Docker</b></sub>
+
+</details>
 
 <br/>
 
-**A research workflow built around specialized agents coordinated with LangGraph.**
+<!-- ═══════════════════════════════ STACK ═══════════════════════════════ -->
+<h2 align="center">🛠️ The Arsenal</h2>
 
-Complex questions are broken down into smaller research tasks. Findings are gathered, verified, and synthesized into structured reports.
-
-```text
-PROJECT BLUEPRINT 002
-──────────────────────────────────────────
-
-[ USER QUESTION ]
-       |
-       v
-[ PLANNER AGENT ]
-       |
-       +----> RESEARCH TASK A
-       |
-       +----> RESEARCH TASK B
-       |
-       +----> EXTRACTION TASK
-       |
-       v
-[ EVIDENCE AGGREGATION ]
-       |
-       v
-[ VERIFICATION ]
-       |
-       +----> RETRY IF NEEDED
-       |
-       v
-[ REPORT SYNTHESIS ]
-       |
-       v
-[ STRUCTURED REPORT ]
-
-──────────────────────────────────────────
-```
-
-### System Components
-
-| Component | Engineering Focus |
-|:--|:--|
-| Planning | Query decomposition |
-| Orchestration | LangGraph-based coordination |
-| Research | Information gathering |
-| Extraction | Structured facts from sources |
-| Verification | Evidence checking |
-| Tooling | Function and tool calling |
-| Output | Structured report generation |
-| Backend | FastAPI and Docker |
-
-### Technology
-
-`Python` `LangGraph` `OpenAI API` `FastAPI` `Docker`
-
-<details>
-<summary>🧠 Engineering Insight — Why verification loops matter</summary>
-
-A multi-agent system shouldn't assume that every intermediate result is complete or correct.
-
-Verification creates an opportunity to identify missing evidence, conflicting findings, and unanswered parts of a question.
-
-The important engineering challenge is deciding **when to retry and when to stop**.
-
-</details>
-
-</details>
-
-<p align="center">
-<a href="https://github.com/Subham999100?tab=repositories">
-<img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-7C3AED?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
-</a>
-</p>
-
----
-
-## Tech Stack
-
-<div align="center">
-
-### ⚙️ My Engineering Toolkit
-
-</div>
-
-<table>
+<table align="center">
 <tr>
-<td><b>🧠 AI / LLMs</b></td>
+<td align="center" width="140"><b>🤖 GenAI</b></td>
 <td>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&amp;logo=langchain&amp;logoColor=white" />
-<img src="https://img.shields.io/badge/LangGraph-312E81?style=flat-square" />
-<img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square" />
-<img src="https://img.shields.io/badge/Agentic_AI-6D28D9?style=flat-square" />
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/RAG-2563EB?style=flat-square" />
+<img src="https://img.shields.io/badge/Agentic_AI-7C3AED?style=flat-square" />
+<img src="https://img.shields.io/badge/Tool_Calling-4C1D95?style=flat-square" />
 </td>
 </tr>
 <tr>
-<td><b>⚙️ Backend</b></td>
+<td align="center"><b>⚙️ Backend</b></td>
+<td><img src="https://skillicons.dev/icons?i=python,fastapi,java,spring,ts&theme=dark" height="40" /></td>
+</tr>
+<tr>
+<td align="center"><b>🗄️ Data</b></td>
 <td>
-<img src="https://skillicons.dev/icons?i=python,fastapi,java,spring,ts&amp;theme=dark" height="38" />
+<img src="https://skillicons.dev/icons?i=postgres,mongodb&theme=dark" height="40" />
+&nbsp;
+<img src="https://img.shields.io/badge/pgvector-316192?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" />
 </td>
 </tr>
 <tr>
-<td><b>🗄️ Data</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb&amp;theme=dark" height="38" />
-<img src="https://img.shields.io/badge/pgvector-316192?style=flat-square" />
-<img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square" />
-</td>
-</tr>
-<tr>
-<td><b>☁️ Cloud &amp; DevOps</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux&amp;theme=dark" height="38" />
-</td>
+<td align="center"><b>☁️ DevOps</b></td>
+<td><img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux&theme=dark" height="40" /></td>
 </tr>
 </table>
 
----
+<br/>
 
-## Research Lab
+<!-- ═══════════════════════════════ ACTIVITY ═══════════════════════════════ -->
+<h2 align="center">🔥 Proof of Work</h2>
 
-<div align="center">
+<p align="center">
+  <a href="https://github.com/Subham999100">
+    <img src="https://streak-stats.demolab.com/?user=Subham999100&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=C4B5FD&currStreakLabel=C4B5FD&sideLabels=A5B4FC&dates=8B949E&currStreakNum=E9D5FF&sideNums=E9D5FF" />
+  </a>
+</p>
 
-### 🌱 Currently Exploring
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Subham999100&bg_color=0D1117&color=C4B5FD&line=7C3AED&point=E9D5FF&area=true&area_color=7C3AED&hide_border=true&custom_title=Commits%20over%20time" width="100%" />
+</p>
 
-*An engineering mindset is never finished.*
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Subham999100/Subham999100/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/Subham999100/Subham999100/output/github-snake.svg" alt="snake eating my contributions" width="100%" />
+  </picture>
+</p>
 
-</div>
+<br/>
 
-<details>
-<summary><b>🧠 RESEARCH TRACK 01 — Advanced Agentic AI</b></summary>
-
-- Advanced LangGraph architectures
-- Agent state and checkpointing
-- Multi-agent coordination
-- Human-in-the-loop workflows
-- Tool design and execution reliability
-
-</details>
-
-<details>
-<summary><b>📚 RESEARCH TRACK 02 — Retrieval &amp; Memory</b></summary>
-
-- Advanced RAG architectures
-- Retrieval optimization
-- Vector search techniques
-- Context management
-- LLM evaluation and faithfulness
-
-</details>
+<!-- ═══════════════════════════════ LEARNING ═══════════════════════════════ -->
+<h2 align="center">🌱 Currently Training On</h2>
 
 <details>
-<summary><b>🚀 RESEARCH TRACK 03 — Production Engineering</b></summary>
+<summary><b>📖 See what's in my context window right now</b></summary>
+<br/>
 
-- Production-grade GenAI system design
-- Observability and tracing
-- Reliable backend APIs
-- Docker-based deployment
-- AWS cloud infrastructure
+```yaml
+epoch: current
+loss: decreasing 📉
 
-</details>
+agents:
+  - Advanced agentic AI architectures
+  - Advanced LangGraph (state, checkpoints, human-in-the-loop)
+  - Multi-agent systems & tool design
 
-### Engineering Principles
+retrieval:
+  - RAG architecture & optimization
+  - LLM evaluation
+  - Observability & tracing
 
-```python
-engineering_principles = {
-    "build": "Working systems over flashy demos",
-    "quality": "Evidence before confidence",
-    "design": "Simple architecture where possible",
-    "reliability": "Handle failure explicitly",
-    "learning": "Experiment, measure, improve",
-}
+production:
+  - Production-grade GenAI systems
+  - AI + cloud deployment (AWS)
 ```
 
----
-
-## Live Signals
-
-<div align="center">
-
-### 📡 GitHub Telemetry
-
-*Activity from the engineering workspace.*
-
-<img src="https://komarev.com/ghpvc/?username=Subham999100&amp;label=PROFILE+VISITS&amp;color=7C3AED&amp;style=for-the-badge" alt="Profile views" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Subham999100&amp;bg_color=0D1117&amp;color=C4B5FD&amp;line=8B5CF6&amp;point=E9D5FF&amp;area=true&amp;area_color=312E81&amp;hide_border=true&amp;radius=12" width="100%" alt="GitHub activity graph" />
+</details>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=Subham999100&amp;theme=tokyonight&amp;hide_border=true&amp;background=0D1117&amp;ring=A78BFA&amp;fire=C4B5FD&amp;currStreakLabel=C4B5FD&amp;sideLabels=A5B4FC&amp;dates=8B949E&amp;currStreakNum=E9D5FF&amp;sideNums=E9D5FF" width="80%" alt="GitHub contribution streak" />
+<!-- ═══════════════════════════════ COLLAB ═══════════════════════════════ -->
+<h2 align="center">🤝 Let's Build Something That Thinks</h2>
 
-</div>
-
----
-
-## Collaboration
-
-<div align="center">
-
-### 🤝 Build Something Intelligent Together
-
-Interested in collaborating on:
-
-<img src="https://img.shields.io/badge/AI_AGENTS-1E1B4B?style=for-the-badge" />
-<img src="https://img.shields.io/badge/AGENTIC_AI-1E1B4B?style=for-the-badge" />
-<img src="https://img.shields.io/badge/LANGGRAPH-1E1B4B?style=for-the-badge" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/RAG_SYSTEMS-312E81?style=for-the-badge" />
-<img src="https://img.shields.io/badge/LLM_BACKENDS-312E81?style=for-the-badge" />
-<img src="https://img.shields.io/badge/OPEN_SOURCE_AI-312E81?style=for-the-badge" />
-
-<br/><br/>
-
-**Let's build AI systems that do useful work.**
-
-<a href="https://github.com/Subham999100">
-<img src="https://img.shields.io/badge/CONNECT_ON_GITHUB-7C3AED?style=for-the-badge&amp;logo=github&amp;logoColor=white" />
-</a>
-
-</div>
-
----
-
-<details>
-<summary>🔒 <b>RESTRICTED FILE — ACCESS UNKNOWN</b> · Curious? Click here.</summary>
-
-<br/>
+<p align="center">
+  <img src="https://img.shields.io/badge/AI_Agents-1E1B4B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Agentic_AI-1E1B4B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LangGraph_/_LangChain-1E1B4B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/RAG_Apps-1E1B4B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LLM_Backends-1E1B4B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Open_Source_AI-1E1B4B?style=for-the-badge" />
+</p>
 
 ```bash
-visitor@subham-ai:~$ cat /secrets/mission.txt
-
-ACCESS GRANTED
-
-You found the hidden developer message.
-
-Most people scroll.
-Engineers investigate.
-
-Most people consume technology.
-Builders ask how it works.
-
-Most people stop when something fails.
-Curious minds inspect the failure.
-
------------------------------------------
-
-SECRET ACHIEVEMENT UNLOCKED
-
-       THE CURIOUS ENGINEER
-
------------------------------------------
-
-FLAG{STAY_CURIOUS_KEEP_BUILDING}
+$ ask subham --about "GenAI · RAG · AI Agents · LangGraph · LangChain · OpenAI API · FastAPI · Vector DBs · Python"
+> response: always happy to talk. open an issue, star a repo, or just say hi 👋
 ```
 
-**Thanks for exploring beyond the surface.**
-
-The best discoveries often begin with curiosity.
-
-</details>
-
-<br/>
-
-<div align="center">
-
-```text
-> Code is the implementation.
-> Curiosity is the engine.
-> Learning is the process.
-> Building is the outcome.
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:7C3AED,55:312E81,100:0D1117&amp;height=140&amp;section=footer&amp;text=Build.%20Learn.%20Improve.%20Repeat.&amp;fontSize=22&amp;fontColor=DDD6FE&amp;fontAlignY=70" width="100%" alt="Build. Learn. Improve. Repeat." />
-
-<sub>SUBHAM.AI · Designed around curiosity and engineering</sub>
-
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,55:1E1B4B,100:0D1117&height=130&section=footer&text=Building%20with%20AI.%20Learning%20every%20day.%20Shipping%20real%20systems.&fontSize=16&fontColor=DDD6FE&fontAlignY=72&animation=twinkling" width="100%" />
+</p>
