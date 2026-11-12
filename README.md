@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Subham Sekhar Patnaik — GenAI Engineer building agentic systems" />
+  <img src="./hero.svg" width="100%" alt="Subham Sekhar Patnaik — GenAI Engineer building agentic systems" />
 </p>
 
 <p align="center">
